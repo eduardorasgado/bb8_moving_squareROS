@@ -8,6 +8,13 @@ def squareCallback(request):
     msg = MoveBB8("Hi client, its a server response!")
     response = msg.sendMessage()
     print response
+    #move the bb8 in square
+    points = [x * 0.1 for x in range(0, 10)]
+    for i in points:
+        print i
+        
+    move = msg.moveinSquare(points)
+    
     return EmptyResponse()
     
 def main():

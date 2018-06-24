@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="bb8_square_movement" 
+        type="bb8_move_in_square_service_client.py"
+        name="bb8_activate_client"
+        output="screen" />
+</launch>

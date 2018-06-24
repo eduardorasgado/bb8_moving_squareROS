@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="bb8_square_movement" 
+        type="bb8_move_in_square_service_server.py" 
+        name="move_square_node" 
+        output="screen" />
+</launch>

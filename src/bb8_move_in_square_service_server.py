@@ -6,7 +6,8 @@ from move_bb8 import MoveBB8
 
 def squareCallback(request):
     rospy.loginfo("Lets initialize the robot move...")
-    MoveBB8()
+    square = MoveBB8()
+    square.movesinSquare()
     
     return EmptyResponse()
     

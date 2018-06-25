@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="bb8_square_movement" type="bb8_move_custom_service_client.py" name="call_move_square_custom_node" output="screen" />
+</launch>

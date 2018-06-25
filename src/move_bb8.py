@@ -55,11 +55,11 @@ class MoveBB8:
         self.rate.sleep()
         
     #make the loo to move the robot
-    def movesinSquare(self):
+    def movesinSquare(self, side_size=2.0):
         timeTo = 0
         while timeTo <= 4:
             # Move Forwards
-            self.do_a_move(2.0, 0.2, 0.0)
+            self.do_a_move(side_size, 0.2, 0.0)
             # Stop
             self.do_a_move(4.0, 0, 0.0)
             # Turn
